@@ -12,6 +12,7 @@ body {
     justify-content: center;
     padding: 50px;
     font-family: roboto;
+    background-color: lightgrey;
 }
 
 .container-1 {
@@ -28,6 +29,15 @@ body {
     border: 5px solid #ededf0;
     border-radius: 20px;
     box-shadow: 8px 8px 10px #808080;
+}
+
+.container-1-dark {
+    border-color: #585f66;
+    background-color: #2f3740;
+}
+
+.p-dark {
+    color: 'white';
 }
 
  .buttons {
@@ -48,6 +58,10 @@ body {
      margin-bottom: 20px;
  }
 
+ .display-dark {
+     background-color: #585e65;
+ }
+
  .onscreen-display {
      margin-left: auto;
      font-size: 28px;
@@ -61,6 +75,7 @@ body {
      border-radius: 8px;
      flex: 1;
      height: 50px;
+     cursor: pointer;
  }
 
  .inner-buttons:hover {
@@ -95,4 +110,32 @@ body {
 
 .clear {
     flex: 2;
+}
+
+.shift-button {
+    box-sizing: border-box;
+    width: 50px;
+    height: 30px;
+    border: 3px solid #fdfbfb;
+    border-radius: 50px;
+    background-color: #2cf9b8;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 0 grey;
+}
+
+.shift {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #fff;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.shift p {
+    font-size: 12px;
+    
 }
