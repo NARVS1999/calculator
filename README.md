@@ -5,3 +5,5 @@ feature:
     - simple calculator
     - dark mode
     - keyboard support
+
+Live Preview URL: https://narvs1999.github.io/calculator/
