@@ -1,0 +1,96 @@
+* {
+    /* border: 1px dotted red; */
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px;
+    font-family: roboto;
+}
+.container-1 {
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    background-color: #fdfbfb;
+    border: 5px solid #ededf0;
+    border-radius: 20px;
+    box-shadow: 8px 8px 10px #808080;
+}
+
+ .buttons {
+     box-sizing: border-box; 
+     width: 250px;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5px;
+ }
+
+ .display {
+     background-color: #ededf0;
+     border: 1px solid #808080;
+     border-radius: 5px;
+     padding: 5px;
+     margin-bottom: 20px;
+ }
+
+ .onscreen-display {
+     margin-left: auto;
+     font-size: 28px;
+ }
+
+ .inner-buttons {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #c4f1f0;
+     border-radius: 8px;
+     flex: 1;
+     height: 50px;
+ }
+
+ .inner-buttons:hover {
+     border: 1px solid lawngreen;
+     box-shadow: 0 0 5px lawngreen;
+ }
+
+ p {
+     font-size: 24px;
+ }
+
+ .plus-sign, .minus-sign, .multiply-sign, .divide-sign, .equal-sign {
+     border-radius: 50px;
+ }
+ 
+.side-btn {
+    background-color: #fcabc8;
+}
+
+.equal-sign {
+    background-color: #f7d620;
+}
+
+.zero-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c4f1f0;
+    border-radius: 8px;
+    flex: 2;
+}
+
+.clear {
+    flex: 2;
+}
