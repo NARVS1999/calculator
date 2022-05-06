@@ -62,13 +62,13 @@ let num2 = '';
 let operation = '';
 let displayValue = '';
 let answer = '';
-let erroMessage = '';
+let errorMessage = '';
 
 function buttonOne() {
     if(displayValue.length === 9) {
         return;
     } else {
-        if(answer !== '' || erroMessage !== '') {
+        if(answer !== '' || errorMessage !== '') {
             displayScreen.textContent = '';
             answer = '';
         }
@@ -81,7 +81,7 @@ function buttonTwo() {
     if(displayValue.length === 9) {
         return;
     } else {
-        if(answer !== '' || erroMessage !== '') {
+        if(answer !== '' || errorMessage !== '') {
             displayScreen.textContent = '';
             answer = '';
         }
@@ -94,7 +94,7 @@ function buttonThree() {
     if(displayValue.length === 9) {
         return;
     } else {
-        if(answer !== '' || erroMessage !== '') {
+        if(answer !== '' || errorMessage !== '') {
             displayScreen.textContent = '';
             answer = '';
         }
@@ -107,7 +107,7 @@ function buttonFour() {
     if(displayValue.length === 9) {
         return;
     } else {
-        if(answer !== '' || erroMessage !== '') {
+        if(answer !== '' || errorMessage !== '') {
             displayScreen.textContent = '';
             answer = '';
         }
@@ -120,7 +120,7 @@ function buttonFive() {
     if(displayValue.length === 9) {
         return;
     } else {
-        if(answer !== '' || erroMessage !== '') {
+        if(answer !== '' || errorMessage !== '') {
             displayScreen.textContent = '';
             answer = '';
         }
@@ -133,7 +133,7 @@ function buttonSix() {
     if(displayValue.length === 9) {
         return;
     } else {
-        if(answer !== '' || erroMessage !== '') {
+        if(answer !== '' || errorMessage !== '') {
             displayScreen.textContent = '';
             answer = '';
         }
@@ -146,7 +146,7 @@ function buttonSeven() {
     if(displayValue.length === 9) {
         return;
     } else {
-        if(answer !== '' || erroMessage !== '') {
+        if(answer !== '' || errorMessage !== '') {
             displayScreen.textContent = '';
             answer = '';
         }
@@ -159,7 +159,7 @@ function buttonEight() {
     if(displayValue.length === 9) {
         return;
     } else {
-        if(answer !== '' || erroMessage !== '') {
+        if(answer !== '' || errorMessage !== '') {
             displayScreen.textContent = '';
             answer = '';
         }
@@ -172,7 +172,7 @@ function buttonNine() {
     if(displayValue.length === 9) {
         return;
     } else {
-        if(answer !== '' || erroMessage !== '') {
+        if(answer !== '' || errorMessage !== '') {
             displayScreen.textContent = '';
             answer = '';
         }
@@ -185,7 +185,7 @@ function buttonZero() {
     if(displayValue.length === 9) {
         return;
     } else {
-        if(answer !== '' || erroMessage !== '') {
+        if(answer !== '' || errorMessage !== '') {
             displayScreen.textContent = '';
             answer = '';
         }
@@ -305,8 +305,8 @@ function dottedOperation() {
 function calculate() {
     num2 = Number(displayValue);
     if(num2 === 0) {
-        erroMessage = 'error'
-        displayScreen.textContent = erroMessage;
+        errorMessage = 'error'
+        displayScreen.textContent = errorMessage;
         num2 = '';
         num1 = '';
         operation = '';
